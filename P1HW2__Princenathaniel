@@ -1,0 +1,40 @@
+# A brief description of the project: This program allows the user to enter their budget, travel destination, and expenses for gas, 
+# accommodation, and food. It calculates the total expenses, subtracts them from the budget, and displays the remaining amount or 
+# the overspent value along with the travel destination.
+# Pseudocode: The pseudocode outlines each step in a logical, structured way, making it clear how the program processes user input 
+# and performs calculations. It serves as a blueprint for the program and can be helpful for understanding the logic before implementing it in Python.
+#
+# Pseudocode:
+# 1. Prompt the user to enter their budget and store it in a variable.
+# 2. Prompt the user to enter their travel destination and store it in a variable.
+# 3. Prompt the user to enter the amount they will spend on gas and store it in a variable.
+# 4. Prompt the user to enter the amount they will spend on accommodation and store it in a variable.
+# 5. Prompt the user to enter the amount they will spend on food and store it in a variable.
+# 6. Calculate the total expenses by adding gas, accommodation, and food expenses.
+# 7. Subtract the total expenses from the budget to calculate the remaining budget.
+# 8. Display the destination, initial budget, total expenses, and the remaining budget in a user-friendly format.
+
+# Step 3: Ask the user for their budget
+budget = float(input("Enter your budget: "))
+
+# Step 4: Ask the user for their travel destination
+destination = input("Enter your travel destination: ")
+
+# Step 5-7: Ask for gas, accommodation, and food expenses
+gas_expense = float(input("Enter the amount you will spend on gas: "))
+accommodation_expense = float(input("Enter the amount you will spend on accommodation: "))
+food_expense = float(input("Enter the amount you will spend on food: "))
+
+# Step 8: Add all expenses
+total_expenses = gas_expense + accommodation_expense + food_expense
+
+# Step 9: Subtract expenses from the budget
+remaining_budget = budget - total_expenses
+
+# Step 10: Display the results
+print("\n------------ Travel Budget Summary ------------")
+print(f"Destination: {destination}")
+print(f"Initial Budget: ${budget:.2f}")
+print(f"Total Expenses: ${total_expenses:.2f}")
+print(f"Remaining Budget: ${remaining_budget:.2f}")
+
