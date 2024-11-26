@@ -1,0 +1,40 @@
+# Date
+# Assignment Name: Grade Statistics
+# Brief description of program:
+# This program allows the user to input a series of grades, stores them in a list, 
+# and calculates and displays the lowest grade, highest grade, sum of all grades, 
+# and the average of the grades. The output is formatted for clarity.
+
+# Pseudocode:
+# 1. Create an empty list to store grades.
+# 2. Prompt the user to enter the number of grades they will input.
+# 3. Use a loop to collect grades from the user and append them to the list.
+# 4. Calculate the lowest grade, highest grade, sum of grades, and average of grades.
+# 5. Display the calculated statistics, formatted with two decimal places for the average.
+
+# Create an empty list to store grades
+grades_list = []
+
+# Prompt user for the number of grades
+num_grades = int(input("Enter the number of grades you will input: "))
+
+# Collect grades from the user
+print("\nEnter the grades:")
+for i in range(num_grades):
+    grade = float(input(f"Grade {i + 1}: "))
+    grades_list.append(grade)
+
+# Calculate statistics
+lowest_grade = min(grades_list)
+highest_grade = max(grades_list)
+sum_of_grades = sum(grades_list)
+average_grade = sum_of_grades / len(grades_list)
+
+# Display statistics
+print("\nGrade Summary")
+print("-" * 20)
+print(f"{'Lowest Grade:':<15} {lowest_grade:.2f}")
+print(f"{'Highest Grade:':<15} {highest_grade:.2f}")
+print(f"{'Sum of Grades:':<15} {sum_of_grades:.2f}")
+print(f"{'Average:':<15} {average_grade:.2f}")
+
