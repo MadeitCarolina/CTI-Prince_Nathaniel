@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite City</title>
+</head>
+<body>
+    <!-- Largest heading with the city name -->
+    <h1>Charlotte, North Carolina, USA</h1>
+    
+    <!-- Image of the city -->
+    <img src="https://th.bing.com/th/id/R.002d004d4eca721e77ff85d614ea4d25?rik=4VoTOWhwLfLb6g&pid=ImgRaw&r=0" alt="A picture of my favorite city, Charlotte" width="400">
+
+    <!-- Smaller heading for history -->
+    <h2>History</h2>
+    
+    <!-- Paragraph about the city's history -->
+    <p>
+        Charlotte, North Carolina, was founded in 1768 and named in honor of Queen Charlotte of England. It played a pivotal role during the American Revolutionary War, earning the nickname "The Hornet's Nest" due to its fierce resistance to British forces. In the 19th century, it became a hub for gold mining, sparking the first U.S. gold rush. Today, Charlotte is a major financial center, home to several Fortune 500 companies.
+    </p>
+    
+    <!-- Heading for location -->
+    <h2>Location</h2>
+    
+    <!-- Map image of the city -->
+    <img src="https://th.bing.com/th/id/R.1304537c855f3b1c3029a5f16014deac?rik=6hmjlJR4RnetHA&riu=http%3a%2f%2fmaps-charlotte.com%2fimg%2f0%2fmap-of-charlotte-nc-and-surrounding-area.jpg&ehk=vw335L2m6xszkcnLoIIr8SsJf3WcmFPigCMrNbrfinw%3d&risl=&pid=ImgRaw&r=0" alt="A map of Charlotte" width="300">
+
+    <!-- Heading for things to do -->
+    <h2>Things to Do in Charlotte</h2>
+    
+    <!-- Ordered list of activities -->
+    <ol>
+        <li>Visit the NASCAR Hall of Fame.</li>
+        <li>Explore the U.S. National Whitewater Center.</li>
+        <li>Stroll through the beautiful Freedom Park.</li>
+    </ol>
+    
+    <!-- External links -->
+    <p>
+        <a href="https://www.charlottesgotalot.com" target="_blank">Check out Charlotte</a><br>
+        <a href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina" target="_blank">What Charlotte has to offer</a>
+    </p>
+    
+    <!-- Footer -->
+    <footer>
+        <p style="text-align: center;">Created by: Nathaniel Prince</p>
+    </footer>
+</body>
+</html>
+
