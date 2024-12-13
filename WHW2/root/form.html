@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional external CSS -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Form Header -->
+    <h1>Feedback Form</h1>
+    
+    <!-- Feedback Form -->
+    <form>
+        <!-- First Name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+
+        <!-- Last Name -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <!-- Dropdown -->
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic">
+            <option value="service">Customer Service</option>
+            <option value="product">Product Quality</option>
+            <option value="pricing">Pricing</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>How would you rate our service?</legend>
+            <input type="radio" id="excellent" name="rating" value="excellent">
+            <label for="excellent">Excellent</label><br>
+            <input type="radio" id="good" name="rating" value="good">
+            <label for="good">Good</label><br>
+            <input type="radio" id="poor" name="rating" value="poor">
+            <label for="poor">Poor</label>
+        </fieldset><br>
+
+        <!-- Comment Area -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br><br>
+
+        <!-- Buttons -->
+        <button type="submit" style="background-color: lightgreen;">Submit</button>
+        <button type="reset" style="background-color: lightcoral;">Reset</button>
+    </form>
+</body>
+</html>
+4. Index/Home Page (index.html)
+Home Page Content:
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <h1>Welcome to the Project</h1>
+    <p>This site contains three pages: a table, a form, and a link to Google. Use the navigation bar to explore the pages!</p>
+</body>
+</html>
